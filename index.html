@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--External links-->
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Inter&family=Exo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Foodieland</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <h1 id="nameTitle">
+            Foodieland<span class="indent">.</span>
+        </h1>
+
+        <nav id="pageLinks">
+            <a href="Home">Home</a>
+            <a href="Recipes">Recipes</a>
+            <a href="Blog">Blog</a>
+            <a href="Contact">Contact</a>
+            <a href="About us">About us</a>
+        </nav>
+
+        <nav id="socialHandles">
+            <a href="#" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </nav>
+    </header>
+
+
+    <!--HERO-SECTION-->
+    <main id="mainHero">
+        <section id="father">
+            <p id="hotRecipe">
+                <img src="homePage imgs/recipe scroll.png" alt="Recipe scroll"> Hot Recipes
+            </p>
+
+            <h3>
+                Spicy delicious <br> chicken wings
+            </h3>
+
+            <p id="fatherP">Lorem ipsum dolor sit amet consectetuipisicing elit, sed do eiusmod<br>
+                tempor incididunt ut labore et dolore magna aliqut enim ad minim.
+            </p>
+
+            <section id="section1">
+                <span>
+                    <i class="fa-solid fa-stopwatch"></i> 
+                    <p>30 Minutes</p>
+                </span>
+
+                <span>
+                    <i class="fa-solid fa-utensils"></i> 
+                    <p>Chicken</p>
+                </span>
+            </section>
+
+            <section id="section2">
+                <span id="section2Span">
+                    <img src="homePage imgs/John Smith.png" alt="#">
+
+                    <span>
+                        <p id="johnSmith">
+                            John Smith
+                        </p>
+                        
+                        <p>
+                            15 March, 2022
+                        </p>
+                    </span>
+                </span>
+
+                <button type="button" id="viewRecipe">View Recipes <i class="fa-solid fa-circle-play"></i></button>
+            </section>
+        </section>
+
+        <!--Hero image section-->
+        <section id="mother">
+            <img src="homePage imgs/Badge.png" alt="#" id="image1">
+
+            <img src="homePage imgs/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png" alt="#" id="image2">
+        </section>
+    </main>
+
+    <!--Category section-->
+    <section id="category">
+        <span id="span1">
+            <h4>
+                Categories
+            </h4>
+            <button type="button">
+                View All categories
+            </button>
+        </span>
+
+        <span id="span2">
+            <img src="homePage imgs/Category imgs/Category breakfast.png" alt="#">
+            <img src="homePage imgs/Category imgs/Category vegan.png" alt="#">
+            <img src="homePage imgs/Category imgs/Category meat.png" alt="#">
+            <img src="homePage imgs/Category imgs/Category dessert.png" alt="#">
+            <img src="homePage imgs/Category imgs/Category lunch.png" alt="#">
+            <img src="homePage imgs/Category imgs/Category chocolate.png" alt="#">
+        </span>
+    </section>
+
+    <!--Simple and tasty recipe section-->
+    <section id="simpleTastyRecipe">
+        <h4>
+            Simple and tasty recipes
+        </h4>
+        <p id="tastyRecipeP1">
+            Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut<br>
+            labore et dolore magna aliqut enim ad minim 
+        </p>
+
+        <section id="foodCards">
+            <!--card 1-->
+            <card class="foods">
+                <img src="homePage imgs/Simple and tasty recipe/Cheese burger.png" alt="#">
+                <span class="heartIcons">
+                    <i class="fa-solid fa-heart redHeart"></i>
+                </span>
+
+                <p class="foodsP">
+                    Big and Juicy Wagyu Beef<br>
+                    Cheeseburger
+                </p>
+
+                <div class="foodsDiv">
+                    <span class="span1">
+                        <i class="fa-solid fa-stopwatch"></i> 
+                        
+                        <p>
+                            30 Minutes
+                        </p>
+                    </span>
+
+                    <span class="span2">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p>
+                            Snack
+                        </p>
+                    </span>
+                </div>
+            </card>
+
+            <!--card 2-->
+            <card class="foods">
+                <img src="homePage imgs/Simple and tasty recipe/Roasted salmon.png" alt="#">
+                <span class="heartIcons">
+                    <i class="fa-solid fa-heart paleHeart"></i>
+                </span>
+
+                <p class="foodsP">
+                    Fresh Lime Roasted Salmon with<br>
+                    Ginger Sauce
+                </p>
+
+                <div class="foodsDiv">
+                    <span class="span1">
+                        <i class="fa-solid fa-stopwatch"></i> 
+                        
+                        <p>
+                            30 Minutes
+                        </p>
+                    </span>
+
+                    <span class="span2">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p>
+                            Fish
+                        </p>
+                    </span>
+                </div>
+            </card>
+            
+            <!--card 3-->
+            <card class="foods">
+                <img src="homePage imgs/Simple and tasty recipe/Oatmeal pancake.png" alt="#">
+                <span class="heartIcons">
+                    <i class="fa-solid fa-heart paleHeart"></i>
+                </span>
+
+                <p class="foodsP">
+                    Strawberry Oatmeal Pancake<br>
+                    with Honey Syrup
+                </p>
+
+                <div class="foodsDiv">
+                    <span class="span1">
+                        <i class="fa-solid fa-stopwatch"></i> 
+                        
+                        <p>
+                            30 Minutes
+                        </p>
+                    </span>
+
+                    <span class="span2">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p>
+                            Breakfast
+                        </p>
+                    </span>
+                </div>
+            </card>
+            
+            <!--card 4-->
+            <card class="foods">
+                <img src="homePage imgs/Simple and tasty recipe/Mayonnaise salad.png" alt="#">
+                <span class="heartIcons">
+                    <i class="fa-solid fa-heart redHeart"></i>
+                </span>
+
+                <p class="foodsP">
+                    Fresh and Healthy Mixed<br>
+                    Mayonnaise Salad
+                </p>
+
+                <div class="foodsDiv">
+                    <span class="span1">
+                        <i class="fa-solid fa-stopwatch"></i> 
+                        
+                        <p>
+                            30 Minutes
+                        </p>
+                    </span>
+
+                    <span class="span2">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p>
+                            Healthy
+                        </p>
+                    </span>
+                </div>
+            </card>
+
+            <!--card 5-->
+            <card class="foods">
+                <img src="homePage imgs/Simple and tasty recipe/Chicken meatball.png" alt="#">
+                <span class="heartIcons">
+                    <i class="fa-solid fa-heart paleHeart"></i>
+                </span>
+
+                <p class="foodsP">
+                    Chicken Meatballs with Cream<br>
+                    Cheese
+                </p>
+
+                <div class="foodsDiv">
+                    <span class="span1">
+                        <i class="fa-solid fa-stopwatch"></i> 
+                        
+                        <p>
+                            30 Minutes
+                        </p>
+                    </span>
+
+                    <span class="span2">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p>
+                            Meat
+                        </p>
+                    </span>
+                </div>
+            </card>
+
+            <!--AD image-->
+            <card id="adImage">
+                <img src="homePage imgs/Simple and tasty recipe/Ads.png" alt="#">
+                
+            </card>
+
+            <!--card 7-->
+            <card class="foods">
+                <img src="homePage imgs/Simple and tasty recipe/Fruity pancake.png" alt="#">
+                <span class="heartIcons">
+                    <i class="fa-solid fa-heart redHeart"></i>
+                </span>
+
+                <p class="foodsP">
+                    Fruity Pancake with Orange &<br>
+                    Blueberry
+                </p>
+
+                <div class="foodsDiv">
+                    <span class="span1">
+                        <i class="fa-solid fa-stopwatch"></i> 
+                        
+                        <p>
+                            30 Minutes
+                        </p>
+                    </span>
+
+                    <span class="span2">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p>
+                            Sweet
+                        </p>
+                    </span>
+                </div>
+            </card>
+
+            <!--card 8-->
+            <card class="foods">
+                <img src="homePage imgs/Simple and tasty recipe/Chicken rice.png" alt="#">
+                <span class="heartIcons">
+                    <i class="fa-solid fa-heart paleHeart"></i>
+                </span>
+
+                <p class="foodsP">
+                    The Best Easy One Pot Chicken<br>
+                    and Rice
+                </p>
+
+                <div class="foodsDiv">
+                    <span class="span1">
+                        <i class="fa-solid fa-stopwatch"></i> 
+                        
+                        <p>
+                            30 Minutes
+                        </p>
+                    </span>
+
+                    <span class="span2">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p>
+                            Snack
+                        </p>
+                    </span>
+                </div>
+            </card>
+
+            <!--card 9-->
+            <card class="foods">
+                <img src="homePage imgs/Simple and tasty recipe/Chicken bacon pasta.png" alt="#">
+                <span class="heartIcons">
+                    <i class="fa-solid fa-heart paleHeart"></i>
+                </span>
+
+                <p class="foodsP">
+                    The Creamiest Creamy Chicken<br>
+                    and Bacon Pasta
+                </p>
+
+                <div class="foodsDiv">
+                    <span class="span1">
+                        <i class="fa-solid fa-stopwatch"></i> 
+                        
+                        <p>
+                            30 Minutes
+                        </p>
+                    </span>
+
+                    <span class="span2">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p>
+                            Noodles
+                        </p>
+                    </span>
+                </div>
+            </card>
+
+        </section>
+    </section>
+
+    <!--Everyone can bea chef section-->
+    <seection id="everyoneCanBeAChef">
+        <div id="textSide">
+            <h4>
+                Everyone can be a<br>
+                chef in their own kitchen
+            </h4>
+
+            <p>
+            Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do<br>
+            eiusmod tempor incididunt ut labore et dolore magna aliqut enim<br>
+            ad minim   
+            </p>
+
+            <button type="button">
+                Learn More
+            </button>
+        </div>
+
+        <div id="imageSide">
+            <img src="homePage imgs/Everyone can be a chef.png" alt="#">
+        </div>
+    </seection>
+
+    <!--@foodieland on Instagram section-->
+    <section id="foodielandOnIG">
+        <div id="upperSide">
+            <h4>
+                Check out @foodieland on Instagram
+            </h4>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore<br>
+                magna aliqut enim ad minim 
+            </p>
+        </div>
+
+        <div id="bottomScreenShots">
+            <img src="homePage imgs/IG posts/IG post1.png" alt="#" class="igPosts">
+            <img src="homePage imgs/IG posts/IG post2.png" alt="#" class="igPosts">
+            <img src="homePage imgs/IG posts/IG post3.png" alt="#" class="igPosts">
+            <img src="homePage imgs/IG posts/IG post4.png" alt="#" class="igPosts">
+        </div>
+
+        <a href="#" title="Instagram" id="button">Visit Our Instagram <i class="fa-brands fa-instagram"></i></a>
+    </section>
+
+    <!--Try this delicious recipe section-->
+    <section id="tryDeliciousRecipe">
+        <div id="upperTexts">
+            <h4>
+                Try this delicious recipe<br>
+                to make your day
+            </h4>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor<br>
+                incididunt ut labore et dolore magna aliqut enim ad minim 
+            </p>
+        </div>
+
+        <div id="foodsRecipe">
+            <!--Card 1-->
+            <card class="foodsRecipeCards">
+                <img src="homePage imgs/Delicious recipe/Delicious recipe1.png" alt="#">
+                <span class="heartIcons">
+                    <i class="fa-solid fa-heart redHeart"></i>
+                </span>
+
+                <p class="foodsRecipeCards-P">
+                    Mixed Tropical Fruit Salad with<br>
+                    Superfood Boosts
+                </p>
+
+                <div class="foodsRecipeCards-Div">
+                    <span class="span1">
+                        <i class="fa-solid fa-stopwatch"></i> 30 Minutes
+                    </span>
+
+                    <span class="span2">
+                        <i class="fa-solid fa-utensils"></i> Healthy
+                    </span>
+                </div>
+            </card>
+
+            <!--Card 2-->
+            <card class="foodsRecipeCards">
+                <img src="homePage imgs/Delicious recipe/Delicious recipe2.png" alt="#">
+                <span class="heartIcons">
+                    <i class="fa-solid fa-heart paleHeart"></i>
+                </span>
+
+                <p class="foodsRecipeCards-P">
+                    Big and Juicy Wagyu Beef<br>
+                    Cheeseburger
+                </p>
+
+                <div class="foodsRecipeCards-Div">
+                    <span class="span1">
+                        <i class="fa-solid fa-stopwatch"></i> 30 Minutes
+                    </span>
+
+                    <span class="span2">
+                        <i class="fa-solid fa-utensils"></i> Western
+                    </span>
+                </div>
+            </card>
+
+            <!--Card 3-->
+            <card class="foodsRecipeCards">
+                <img src="homePage imgs/Delicious recipe/Delicious recipe3.png" alt="#">
+                <span class="heartIcons">
+                    <i class="fa-solid fa-heart redHeart"></i>
+                </span>
+
+                <p class="foodsRecipeCards-P">
+                    Healthy Japanese Fried Rice with<br>
+                    Asparagus
+                </p>
+
+                <div class="foodsRecipeCards-Div">
+                    <span class="span1">
+                        <i class="fa-solid fa-stopwatch"></i> 30 Minutes
+                    </span>
+
+                    <span class="span2">
+                        <i class="fa-solid fa-utensils"></i> Healthy
+                    </span>
+                </div>
+            </card>
+
+            <!--Card 4-->
+            <card class="foodsRecipeCards">
+                <img src="homePage imgs/Delicious recipe/Delicious recipe4.png" alt="#">
+                <span class="heartIcons">
+                    <i class="fa-solid fa-heart paleHeart"></i>
+                </span>
+
+                <p class="foodsRecipeCards-P">
+                    Cauliflower Walnut Vegetarian Taco<br>
+                    Meat
+                </p>
+
+                <div class="foodsRecipeCards-Div">
+                    <span class="span1">
+                        <i class="fa-solid fa-stopwatch"></i> 30 Minutes
+                    </span>
+
+                    <span class="span2">
+                        <i class="fa-solid fa-utensils"></i> Eastern
+                    </span>
+                </div>
+            </card>
+
+            <!--Card 5-->
+            <card class="foodsRecipeCards">
+                <img src="homePage imgs/Delicious recipe/Delicious recipe5.png" alt="#">
+                <span class="heartIcons">
+                    <i class="fa-solid fa-heart redHeart"></i>
+                </span>
+
+                <p class="foodsRecipeCards-P">
+                    Rainbow Chicken Salad with<br>
+                    Almond Honey Mustard Dressing
+                </p>
+
+                <div class="foodsRecipeCards-Div">
+                    <span class="span1">
+                        <i class="fa-solid fa-stopwatch"></i> 30 Minutes
+                    </span>
+
+                    <span class="span2">
+                        <i class="fa-solid fa-utensils"></i> Healthy
+                    </span>
+                </div>
+            </card>
+
+            <!--Card 6-->
+            <card class="foodsRecipeCards">
+                <img src="homePage imgs/Delicious recipe/Delicious recipe6.png" alt="#">
+                <span class="heartIcons">
+                    <i class="fa-solid fa-heart paleHeart"></i>
+                </span>
+
+                <p class="foodsRecipeCards-P">
+                    Barbeque Spicy Sandwiches with<br>
+                    Chips
+                </p>
+
+                <div class="foodsRecipeCards-Div">
+                    <span class="span1">
+                        <i class="fa-solid fa-stopwatch"></i> 30 Minutes
+                    </span>
+
+                    <span class="span2">
+                        <i class="fa-solid fa-utensils"></i> Snack
+                    </span>
+                </div>
+            </card>
+
+            <!--Card 7-->
+            <card class="foodsRecipeCards">
+                <img src="homePage imgs/Delicious recipe/Delicious recipe7.png" alt="#">
+                <span class="heartIcons">
+                    <i class="fa-solid fa-heart paleHeart"></i>
+                </span>
+
+                <p class="foodsRecipeCards-P">
+                    Firecracker Vegan Lettuce Wraps-<br>
+                    Spicy!
+                </p>
+
+                <div class="foodsRecipeCards-Div">
+                    <span class="span1">
+                        <i class="fa-solid fa-stopwatch"></i> 30 Minutes
+                    </span>
+
+                    <span class="span2">
+                        <i class="fa-solid fa-utensils"></i> Seafood
+                    </span>
+                </div>
+            </card>
+
+            <!--Card 8-->
+            <card class="foodsRecipeCards">
+                <img src="homePage imgs/Delicious recipe/Delicious recipe8.png" alt="#">
+                <span class="heartIcons">
+                    <i class="fa-solid fa-heart paleHeart"></i>
+                </span>
+
+                <p class="foodsRecipeCards-P">
+                    Chicken Ramen Soup with<br>
+                    Mushroom
+                </p>
+
+                <div class="foodsRecipeCards-Div">
+                    <span class="span1">
+                        <i class="fa-solid fa-stopwatch"></i> 30 Minutes
+                    </span>
+
+                    <span class="span2">
+                        <i class="fa-solid fa-utensils"></i> Japanese
+                    </span>
+                </div>
+            </card>
+
+        </div>
+    </section>
+
+
+    <!--Deliciousness to your inbox section-->
+    <section id="deliciousnessToYourInbox">
+        <div id="upperWriteup">
+            <h4>
+                Deliciousness to your inbox
+            </h4>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor<br>
+                incididunt ut labore et dolore magna aliqut enim ad minim 
+            </p>
+        </div>
+
+        <div id="lowerInputAndImages">
+            <img src="homePage imgs/Deliciousness to your inbox/kisspng-salad-salad-fresh-food-healthylife-vegetables-vegetarian-5d42e3a7cb8543 1.png" alt="#" id="leftImage">
+
+            <form action="#">
+                <div id="inputDiv">
+                    <input type="email" id="email" placeholder="Your email address...">
+                    <button type="submit" id="emailButton">Subscribe</button>
+                </div>
+            </form>
+
+            <img src="homePage imgs/Deliciousness to your inbox/Photo.png" alt="#" id="rightImage">
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <footer>
+        <div id="div1">
+            <span id="div1Span">
+                <h4>
+                    Foodieland<span id="indent">.</span>
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuipisicing elit,
+                </p>
+            </span>
+
+            <nav id="div1Nav">
+                <a href="Recipes" class="footerLinks">Recipes</a>
+                <a href="Blog" class="footerLinks">Blog</a>
+                <a href="Contact" class="footerLinks">Contact</a>
+                <a href="About us" class="footerLinks">About us</a>
+            </nav>
+        </div>
+
+        <hr>
+
+        <div id="div2">
+            <p>
+                &copy; 2020 Flowbase. Powered by <span id="highlight">Webflow</span>
+            </p>
+            <nav id="socialHandles">
+                <a href="" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </nav>
+        </div>
+    </footer>
+    
+</body>
+</html>
