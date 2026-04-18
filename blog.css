@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-color: #FFFF;
+    --font-color1: #000000;
+    --font-color2: #000000c8;
+
+    --sectionCard-bgColor: #E7FAFE;
+    --redHeart-color: #FF6363;
+    --paleHeart-color: #DBE2E5;
+
+    --icons-color: #000000;
+    --font-family1: 'Lobster', cursive;
+    --font-family2: 'Inter', sans-serif;
+    --copyright-font: 'Exo 2', sans-serif; 
+
+}
+
+
+/*body*/
+body {
+    font-family: var(--font-family2);
+    
+    p {
+        color: var(--font-color2);
+    }
+
+    h4 {
+        color: var(--font-color1);
+    }
+
+    h3 {
+        color: var(--font-color1);
+    }
+
+}
+
+
+/*Header and contents*/
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 30px 50px 0px 50px; */
+    border-bottom: 1px solid #00000034;
+}
+
+header #nameTitle {
+    margin: 30px 0px 30px 50px;
+    color: var(--font-color1);
+    font-family: var(--font-family1);
+    font-size: 1.5em;
+    font-weight: 400;
+}.indent {
+    color: var(--redHeart-color);
+}
+
+header #pageLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 40rem; */
+    gap: 50px;
+    margin: 30px 0px 30px 0px;
+}
+
+#pageLinks a {
+    text-decoration: none;
+    font-family: var(--font-family2);
+    font-weight: 500;
+    font-size: 1em;
+    color: var(--font-color1);
+    padding-bottom: 0.2rem;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s ease;
+}
+
+#pageLinks a:hover {
+    border-color: var(--redHeart-color);
+}
+
+header #socialHandles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 15rem; */
+    gap: 50px;
+    margin: 30px 50px 30px 0px;
+
+}#socialHandles a {
+    font-size: 1em;
+    color: var(--icons-color);
+}
+
+
+
+/*Professional chef section*/
+
+#professionalChef {
+    margin: 80px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+#professionalChef h3 {
+    font-size: 3.5em;
+    font-weight: 600;
+    letter-spacing: 0px;
+    word-spacing: 5px;
+    text-align: center;
+}
+
+
+#professionalChef-Div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+}
+
+
+#professionalChef-Div #span1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    font-weight: 600;
+}
+
+#professionalChef-Div #span2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-weight: 400;
+}
+
+#professionalChef-Div #span2 #p1 {
+    transform: scale(1.5);
+}
+
+
+#professionalChef-P {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#professionalChef img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+
