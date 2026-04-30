@@ -979,20 +979,19 @@ footer #div2 {
     }
 
     /*Deliciousness to your inbox section*/
-    #deliciousnessToYourInbox {
-        margin-top: 200px;
-        /* width: 100%; */
+    #deliciousnessToYourInbox { 
+        margin: 150px 30px 0 30px; 
     }
 
-    #lowerInputAndImages {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
+    #lowerInputAndImages { 
+        flex-direction: column; 
+        gap: 30px; 
+        padding-bottom: 40px; 
+        margin-top: 30px;
     }
 
-    #rightImage, #leftImage {
-        width: 12rem;
+    #leftImage, #rightImage {
+        display: none;
     }
 
     /*Footer*/

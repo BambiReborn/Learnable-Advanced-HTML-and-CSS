@@ -480,3 +480,347 @@ footer #div2 {
     font-size: 1em;
     color: var(--icons-color);
 }
+
+
+
+
+/*RESPONSIVENESS*/
+/*RESPONSIVNESS*/
+
+@media (max-width: 1025px) {
+
+    body {
+        max-width: 100%;
+    }
+
+    header {
+        max-width: 100%;
+    }
+
+    header #pageLinks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }   
+
+    header #socialHandles {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    /* Professional Chef */
+    #professionalChef { 
+        margin: 60px 30px 30px 30px; 
+    }
+
+    #professionalChef h3 { 
+        font-size: 2.8em; 
+    }
+
+    #professionalChef-Div { 
+        gap: 40px; 
+    }
+
+    /* Article */
+    article {
+        flex-direction: column;
+        margin: 50px 30px;
+        gap: 50px;
+    }
+
+    #article-nav {
+        flex-direction: row;
+    }
+
+    #section3 span img { 
+        width: 100%; 
+    }
+
+    /* Deliciousness */
+    #deliciousnessToYourInbox { 
+        margin: 60px 30px 0 30px; 
+    }
+
+    #lowerInputAndImages { 
+        flex-direction: column; 
+        gap: 30px; 
+        padding-bottom: 40px; 
+        margin-top: 30px;
+    }
+
+    #leftImage, #rightImage {
+        display: none;
+    }
+
+    /* Delicious Recipe */
+    #deliciousRecipe { 
+        margin: 60px 30px 0 30px; 
+    }
+
+    #foodsRecipe { 
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    .foodsRecipeCards { 
+        width: 100%; 
+        margin-bottom: 100px;
+    }
+
+    /* Footer */
+    #div1Nav, #div2 #socialHandles {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+}
+
+
+
+/* Tablet */
+@media (max-width: 769px) {
+
+    /* Header */
+    body {
+        max-width: 100%;
+    }
+
+    /*header*/
+    header {
+        max-width: 100%;
+        font-size: 0.8em;
+    }
+
+    header #pageLinks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    header #socialHandles {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    /* Professional Chef */
+    #professionalChef h3 { 
+        font-size: 2.3em; 
+    }
+
+    #professionalChef-Div { 
+        flex-direction: column; 
+        gap: 20px; 
+    }
+
+    /* Article */
+    article { 
+        margin: 40px 20px; 
+        padding: 15px; 
+    }
+
+    #article-nav { 
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        justify-content: center; 
+    }
+
+    /* Deliciousness to your inbox*/
+    #deliciousnessToYourInbox #upperWriteup h4 { font-size: 2.3em; 
+    }
+
+    #lowerInputAndImages #inputDiv { 
+        width: 100%; 
+    }
+
+    /* Delicious Recipe */
+    #deliciousRecipe h4 { 
+        font-size: 2em; 
+    }
+
+    #foodsRecipe { 
+        grid-template-columns: 1fr;
+        
+    }
+
+    .foodsRecipeCards {
+        width: 100%;
+        margin-bottom: 300px;
+    }
+
+    /*FOOTER*/
+    footer #div1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.8em;
+    }
+
+    #div1Nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+
+
+/* MOBILE */
+@media (max-width: 426px) {
+
+    /* Header */
+    header {
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    header #nameTitle {
+        margin: 15px 0;
+    }
+
+    header #pageLinks {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+    }
+
+    header #socialHandles {
+        margin: 15px 0;
+        gap: 25px;
+    }
+
+    /* Professional Chef */
+    #professionalChef { 
+        margin: 40px 15px 20px 15px; 
+    }
+
+    #professionalChef h3 { 
+        font-size: 2em; 
+    }
+
+    #professionalChef-P { 
+        margin-top: 20px; 
+        margin-bottom: 20px; 
+    }
+
+    #professionalChef-IMG {
+        width: 100%;
+        align-items: center;
+        justify-self: center;
+    }
+
+    /* Article */
+    article { 
+        margin: 30px 15px; 
+        gap: 30px; 
+    }
+
+    #section3 span img { 
+        width: 100%; 
+    }
+
+    #section-5 h4 { 
+        font-size: 1.2em; 
+    }
+
+    /* #section2, #section3, #section4, #section6 {        margin-top: 40px; 
+
+    } */
+
+    /* Deliciousness to your inbox */
+    #deliciousnessToYourInbox {
+        margin: 60px 15px 0 15px;
+        padding-top: 40px;
+        border-radius: 30px;
+        width: 100%;
+    }
+
+    #deliciousnessToYourInbox #upperWriteup h4 {
+        font-size: 2em;
+    }
+
+    #lowerInputAndImages {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding-bottom: 40px;
+        max-width: 100%;
+        
+    }
+
+    #leftImage, #rightImage {
+        display: none;
+        width: 80%;
+    }
+
+    #lowerInputAndImages #inputDiv {
+        width: 70%;
+        justify-self: center;
+    }
+
+
+    /* Delicious Recipe Section */
+    #deliciousRecipe { 
+        margin: 50px 15px 0 15px;
+        justify-content: center; 
+    }
+
+    #deliciousRecipe h4 { 
+        font-size: 1.8em; 
+    }
+
+    #foodsRecipe {
+        justify-content: center;
+    }
+
+    .foodsRecipeCards {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+
+
+    /* Footer */
+    footer {
+        margin: 60px 15px 0 15px;
+    }
+
+    footer #div1 {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    #div1Nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #div2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        text-align: center;
+    }
+
+    #div2 #socialHandles {
+        position: static;
+        gap: 25px;
+    }
+}
