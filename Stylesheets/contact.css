@@ -16,7 +16,7 @@
     --icons-color: #000000;
     --font-family1: 'Lobster', cursive;
     --font-family2: 'Inter', sans-serif;
-    --copyright-font: 'Exo 2', sans-serif; 
+    --copyright-font: 'Exo 2', sans-serif;
 
 }
 
@@ -402,4 +402,331 @@ footer #div2 {
 }#socialHandles a {
     font-size: 1em;
     color: var(--icons-color);
+}
+
+
+
+/*RESPONSIVENESS*/
+
+@media (max-width: 1025px) {
+
+    /* Header */
+    body {
+        max-width: 100%;
+    }
+
+    header {
+        max-width: 100%;
+    }
+
+    header #pageLinks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }   
+
+    header #socialHandles {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    /* Contact Section */
+    #contactUsSection {
+        margin: 60px 30px 30px 30px;
+    }
+
+    #contactUsSection h4 {
+        font-size: 2.5em;
+    }
+
+    /* Form and Image */
+    #formAndImage {
+        flex-direction: column;
+    }
+
+    #formAndImage img {
+        display: none;
+    }
+
+    .form-group {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    /* Deliciousness */
+    #deliciousnessToYourInbox {
+        margin: 60px 30px 0 30px;
+    }
+
+    #lowerInputAndImages {
+        flex-direction: column;
+        gap: 30px;
+        padding-bottom: 40px;
+    }
+
+    #lowerInputAndImages #inputDiv {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #leftImage, #rightImage {
+        display: none;
+    }
+
+
+
+    /* Delicious Recipe */
+    #deliciousRecipe {
+        margin: 60px 30px 0 30px;
+    }
+
+    #foodsRecipe {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .foodsRecipeCards {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+
+    /* Footer */
+    #div1Nav, #div2 #socialHandles {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+}
+
+
+/* Tablet */
+@media (max-width: 769px) {
+
+    /* Header */
+    body {
+        max-width: 100%;
+    }
+
+    /*header*/
+    header {
+        max-width: 100%;
+        font-size: 0.8em;
+    }
+
+    header #pageLinks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    header #socialHandles {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    /* Contact Section */
+    #contactUsSection h4 {
+        font-size: 2em;
+    }
+
+    /* Form and Image */
+    .form-group {
+        gap: 1.5rem;
+    }
+
+    .form-item input,
+    .form-item select,
+    .form-item #messages {
+        font-size: 0.95em;
+    }
+
+    /* Deliciousness */
+    #deliciousnessToYourInbox #upperWriteup h4 {
+        font-size: 2.3em;
+    }
+
+    /* Delicious Recipe */
+    #deliciousRecipe h4 { 
+        font-size: 2em; 
+    }
+
+    #foodsRecipe { 
+        grid-template-columns: 1fr;
+        
+    }
+
+    .foodsRecipeCards {
+        width: 100%;
+        margin-bottom: 300px;
+    }
+
+    /* Footer */
+    footer #div1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.8em;
+    }
+
+    #div1Nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+
+/*MOBILE*/
+@media (max-width: 426px) {
+
+    /* Header */
+    header {
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    header #nameTitle {
+        margin: 15px 0;
+    }
+
+    header #pageLinks {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+    }
+
+    header #socialHandles {
+        margin: 15px 0;
+        gap: 25px;
+    }
+
+    /* Contact Section */
+    #contactUsSection {
+        margin: 40px 15px 20px 15px;
+    }
+
+    #contactUsSection h4 {
+        font-size: 1.8em;
+    }
+
+    /* Form and Image */
+    #formAndImage {
+        margin-top: 30px;
+    }
+
+    .contact-form {
+        padding: 0.5rem;
+    }
+
+    #formSection {
+        gap: 2rem;
+    }
+
+    .form-group {
+        gap: 1.5rem;
+    }
+
+    .form-item input,
+    .form-item select,
+    .form-item #messages {
+        padding: 0.8rem;
+        font-size: 0.9em;
+    }
+
+    /* Deliciousness */
+    #deliciousnessToYourInbox {
+        margin: 60px 15px 0 15px;
+        padding-top: 40px;
+        border-radius: 30px;
+        width: 100%;
+    }
+
+    #deliciousnessToYourInbox #upperWriteup h4 {
+        font-size: 2em;
+    }
+
+    #lowerInputAndImages {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding-bottom: 40px;
+        max-width: 100%;
+        
+    }
+
+    #leftImage, #rightImage {
+        display: none;
+        width: 80%;
+    }
+
+    #lowerInputAndImages #inputDiv {
+        width: 70%;
+        justify-self: center;
+    }
+
+    /* Delicious Recipe */
+    #deliciousRecipe { 
+        margin: 50px 15px 0 15px;
+        justify-content: center; 
+    }
+
+    #deliciousRecipe h4 { 
+        font-size: 1.8em; 
+    }
+
+    #foodsRecipe {
+        justify-content: center;
+    }
+
+    .foodsRecipeCards {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    /* Footer */
+    footer {
+        margin: 60px 15px 0 15px;
+    }
+
+    footer #div1 {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    #div1Nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #div2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        text-align: center;
+    }
+
+    #div2 #socialHandles {
+        position: static;
+        gap: 25px;
+    }
 }
