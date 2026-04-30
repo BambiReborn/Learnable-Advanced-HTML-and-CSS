@@ -20,7 +20,6 @@
 
 }
 
-
 /*body*/
 body {
     font-family: var(--font-family2);
@@ -100,144 +99,69 @@ header #socialHandles {
 }
 
 
+/*Contact us form section*/
 
-/*Professional chef section*/
-
-#professionalChef {
+#contactUsSection {
     margin: 80px 50px 50px 50px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
-#professionalChef h3 {
-    font-size: 3.5em;
-    font-weight: 600;
-    letter-spacing: 0px;
-    word-spacing: 5px;
+#contactUsSection h4 {
     text-align: center;
-}
-
-
-#professionalChef-Div {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 80px;
-
-}
-
-
-#professionalChef-Div #span1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-
+    font-size: 3em;
     font-weight: 600;
 }
 
-#professionalChef-Div #span2 {
+
+/*Form and Image section*/
+
+#formAndImage {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    font-weight: 400;
-}
-
-#professionalChef-Div #span2 #p1 {
-    transform: scale(1.5);
-}
-
-
-#professionalChef-P {
-    text-align: center;
-    font-weight: 400;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-#professionalChef-IMG {
-    width: 100%;
-    border-radius: 50px;
-}
-
-
-
-
-/*Section-2 -- how to start food industry*/
-
-article {
-    display: flex;
-    margin: 50px 50px 50px 150px;
-    padding: 30px;
-    gap: 200px;
-
-}
-
-#fatherSection {
-    padding-left: 20px;
-    padding-right: 20px;
-
-    /* border: 1px solid; */
-}
-
-#fatherSection .section-H4 {
-    font-size: 1.1em;
-    font-weight: 600;
-}
-
-#fatherSection .section-P {
-    margin-top: 20px;
-    font-size: 0.9em;
-    font-weight: 400;
-    line-height: 20px;
-    
-}
-
-#section2, #section3, #section4,
-#section6 {
-    margin-top: 80px;
-}
-
-#section3 h4 {
-    margin-bottom: 30px;
-}
-
-#section3 span img {
-    width: 46rem;
-    /* border: 1px solid; */
-}
-
-#section-5 {
+    align-items: start;
     margin-top: 50px;
-    padding: 30px;
-    background: linear-gradient(to right, #0000000f 50%, #FFFFFF 100%);
-    /* box-shadow: 0px 0px 1px #00000053; */
 }
 
-#section-5 h4 {
-    font-size: 1.5em;
-    font-weight: 600;
-    line-height: 40px;
-    font-style: italic;
+.contact-form {
+    width: 100%;
+    padding: 1rem;
+
 }
 
-
-#article-nav {
+#formSection {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    gap: 25px;
+    gap: 3rem;
 }
 
-#article-nav a {
-    color: var(--font-color1);
-    font-size: 1.2em;
+.form-group{
+ display: flex;
+ align-items: center;
+ gap: 4rem;
+}
+
+.form-item {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-item input {
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #DBE2E5;
+}
+
+.form-item select {
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #DBE2E5;
+}
+
+.form-item #messages {
+    height: 10rem;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #DBE2E5;
 }
 
 
@@ -309,7 +233,6 @@ article {
 }
 
 
-
 /*Delcious recipe section*/
 
 #deliciousRecipe {
@@ -333,6 +256,7 @@ article {
 }
 
 .foodsRecipeCards {
+    position: relative;
     width: 20rem;
     height: 22rem;
     margin-top: 0px;
@@ -369,8 +293,8 @@ article {
 
 .heartIcons {
     position: absolute;
-    top: 485%;
-    margin-left: 17%;
+    top: 3%;
+    right: 3%;
     display: flex;
     justify-content: center;
     align-items: center;

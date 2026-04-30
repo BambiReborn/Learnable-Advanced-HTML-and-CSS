@@ -1,0 +1,1638 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* max-width: 100%; */
+}
+
+:root{
+    --background-color: #FFFF;
+    --font-color1: #000000;
+    --font-color2: #000000c8;
+
+    --sectionCard-bgColor: #E7FAFE;
+    --redHeart-color: #FF6363;
+    --paleHeart-color: #dbe2e58d;
+
+    --icons-color: #000000;
+    --font-family1: 'Lobster', cursive;
+    --font-family2: 'Inter', sans-serif;
+    --copyright-font: 'Exo 2', sans-serif; 
+
+}
+
+
+/*body*/
+body {
+    
+    font-family: var(--font-family2);
+    
+    p {
+        color: var(--font-color2);
+    }
+
+    h4 {
+        color: var(--font-color1);
+    }
+
+    h3 {
+        color: var(--font-color1);
+    }
+
+    max-width: 100%;    
+
+}
+
+
+/*Header and contents*/
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 30px 50px 0px 50px; */
+    border-bottom: 1px solid #00000034;
+}
+
+header #nameTitle {
+    margin: 30px 0px 30px 50px;
+    color: var(--font-color1);
+    font-family: var(--font-family1);
+    font-size: 1.5em;
+    font-weight: 400;
+}.indent {
+    color: var(--redHeart-color);
+}
+
+header #pageLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 40rem; */
+    gap: 50px;
+    margin: 30px 0px 30px 0px;
+}
+
+#pageLinks a {
+    text-decoration: none;
+    font-family: var(--font-family2);
+    font-weight: 500;
+    font-size: 1em;
+    color: var(--font-color1);
+    padding-bottom: 0.2rem;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s ease;
+}
+
+#pageLinks a:hover {
+    border-color: var(--redHeart-color);
+}
+
+header #socialHandles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 15rem; */
+    gap: 50px;
+    margin: 30px 50px 30px 0px;
+
+}#socialHandles a {
+    font-size: 1em;
+    color: var(--icons-color);
+}
+
+
+/*Hero section*/
+#mainHero {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 50px;
+    /* padding: 50px; */
+    height: 75vh;
+    /* gap: 100px; */
+    border-radius: 20px;
+    background-color: var(--sectionCard-bgColor);
+    
+}
+
+#mainHero #father {
+    margin: 50px 0px 50px 50px;
+    width: 50%;
+
+}
+
+#father #hotRecipe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 9rem;
+    gap: 10px;
+    padding: 9px;
+    background-color: var(--background-color);
+    border-radius: 40px;
+    font-family: var(--font-family2);
+    font-size: 1em;
+    font-weight: 500;
+}
+
+#father h3 {
+    margin-top: 15px;
+    font-family: var(--font-family2);
+    font-weight: 600;
+    font-size: 4.5em;
+    line-height: 100%;
+    letter-spacing: -4%;
+}
+
+#father #fatherP {
+    margin-top: 15px;
+    font-family: var(--font-family2);
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+#father #section1 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 15px;
+
+}#father #section1 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 10rem;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: var(--font-family2);
+    border-radius: 30px;
+    background-color: var(--paleHeart-color);
+
+}
+
+#father #section2 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 150px;
+    margin-top: 55px;
+    margin-left: 50px;
+
+    font-family: var(--font-family2);
+    font-weight: 400;
+    font-size: 0.9em;
+
+}
+
+#father #section2 #section2Span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    line-height: 25px;
+
+}
+
+#johnSmith {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+#father #section2 #viewRecipe {
+    border: none;
+    border-radius: 15px;
+    background-color: var(--font-color1);
+    color: var(--background-color);
+    width: 10rem;
+    padding: 15px;
+    
+
+    &:hover {
+        cursor: pointer;
+        background-color: var(--sectionCard-color);
+        border: 2px solid var(--paleHeart-color);
+        color: var(--font-color1);
+    }
+}
+
+/*Hero image section*/
+#mainHero #mother {
+    position: relative;
+    width: 50%;
+    /* border: 1px solid; */
+}
+
+#image1 {
+    position: absolute;
+    top: 50px;
+    left: -70px;
+}
+
+#image2 {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+/*Category section*/
+#category {
+    margin: 100px 50px 0px 50px;
+}
+
+#category #div-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#category #div-1 h4 {
+    font-family: var(--font-family2);
+    font-size: 2em;
+    font-weight: 600;
+}
+
+#category #div-1 button {
+    border: none;
+    padding: 12px;
+    width: 10rem;
+    border-radius: 15px;
+    border: 2px solid var(--sectionCard-bgColor);
+    background-color: var(--sectionCard-bgColor);
+    font-family: var(--font-family2);
+    font-size: 0.85em;
+    font-weight: 600;
+    letter-spacing: -2%;
+    line-height: 100%;
+
+
+    &:hover {
+        cursor: pointer;
+        background-color: #DBE2E5;
+    }
+}
+
+#category #div-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+#category #div-2 img {
+    width: 15rem;
+    
+}
+
+
+/*Simple and tasty recipe section*/
+#simpleTastyRecipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 50px 50px 50px;
+}
+
+#simpleTastyRecipe h4 {
+    text-align: center;
+    font-family: var(--font-family2);
+    font-size: 2em;
+    font-weight: 600;
+    color: var(--font-color1);
+
+}
+
+#simpleTastyRecipe #tastyRecipeP1 {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+#foodCards {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 170px;
+
+    /* margin-left: 50px; */
+    /* border: 1px solid; */
+
+    
+}
+
+.foods {
+    position: relative;
+    width: 100%;
+    height: 25rem;
+    margin-top: -5%;
+    margin-bottom: -30%;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: var(--sectionCard-bgColor);
+}
+
+.foodsRecipeCards {
+    position: relative;
+    width: 100%;
+    height: 25rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: var(--sectionCard-bgColor);
+}
+
+.foods img {
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.heartIcons {
+    position: absolute;
+    top: 3%;
+    right: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: var(--background-color);
+    
+}
+
+.redHeart {
+    color: var(--redHeart-color);
+}
+
+.paleHeart {
+    color: var(--paleHeart-color);
+}
+
+.foods .foodsP {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: var(--font-color1);
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.foods .foodsDiv {
+    margin-top: 30px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 30px;
+}
+
+.foodsDiv .span1, .span2 {
+    display: flex;
+    gap: 10px;
+    color: var(--font-family1);
+}
+
+
+#adImage {
+    width: 20rem;
+    height: 25rem;
+    margin-top: -5%;
+    margin-bottom: -30%;
+    
+
+}
+
+#ads {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Everyone can be a chef section*/
+
+#everyoneCanBeAChef {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 220px;
+    margin: 250px 50px 0px 50px;
+    /* border: 1px solid; */
+    
+}
+
+#everyoneCanBeAChef #textSide h4 {
+    font-size: 3.4em;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -4%;
+    margin-bottom: 20px;
+    
+}
+
+#everyoneCanBeAChef #textSide p {
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+#everyoneCanBeAChef #textSide button {
+    border: none;
+    border-radius: 15px;
+    margin-top: 100px;
+    padding: 15px;
+    width: 10rem;
+    background-color: var(--font-color1);
+    color: var(--background-color);
+    cursor: pointer;
+}
+
+#everyoneCanBeAChef #imageSide {
+    width: 35rem;
+    /* border: 1px solid; */
+}
+
+#everyoneCanBeAChef #imageSide img {
+    width: 100%;
+}
+
+
+/*@foodieland on Instagram section*/
+#foodielandOnIG {
+    margin-top: 100px;
+    background: linear-gradient(to top, #E7FAFE 0%, #FFFFFF 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+}
+
+#upperSide h4 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#upperSide p {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 25px;
+    /* margin-top: 15px; */
+}
+
+#bottomScreenShots {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.igPosts {
+    width: 20rem;
+
+}
+
+#foodielandOnIG #button {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: none;
+   border-radius: 15px;
+   padding: 12px;
+   width: 12rem;
+   text-decoration: none;
+   align-items: center;
+   background-color: #000000;
+   color: #FFFFFF;
+}
+
+
+/*Try this delicious recipe section*/
+
+#tryDeliciousRecipe {
+    margin: 100px 50px 0px 50px;
+
+}
+
+#upperTexts {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20%;
+
+}
+
+#upperTexts h4 {
+    font-size: 2.8em;
+    font-weight: 600;
+
+}
+
+#upperTexts p {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#foodsRecipe {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.foodsRecipeCards {
+    width: 20rem;
+    height: 22rem;
+    margin-top: 0px;
+    background-color: var(--background-color);
+    
+}
+
+.foodsRecipeCards img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.foodsRecipeCards-P {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: var(--font-color1);
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.foodsRecipeCards-Div {
+    margin-top: 30px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 30px;
+}
+
+.foodsRecipeCards-Div .span1, .span2 {
+    display: flex;
+    gap: 10px;
+    color: var(--font-family1);
+}
+
+
+/*Deliciousness to your inbox section*/
+
+#deliciousnessToYourInbox {
+    margin: 100px 50px 0px 50px;
+    padding-top: 80px;
+    border-radius: 50px;
+    background-color: var(--sectionCard-bgColor);
+}
+
+/* #deliciousnessToYourInbox #upperWriteup {
+    padding-top: 50px;
+    border: 1px solid;
+} */
+
+#deliciousnessToYourInbox #upperWriteup h4 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+
+}
+
+#deliciousnessToYourInbox #upperWriteup p {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 25px;
+    line-height: 30px;
+}
+
+
+#lowerInputAndImages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lowerInputAndImages #inputDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30rem;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: var(--background-color);
+}
+
+#email {
+    border: none;
+    width: 20rem;
+    padding: 10px;
+    outline: none;
+}
+
+#emailButton {
+    width: 10rem;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    /* &:hover {
+
+    } */
+}
+
+
+#leftImage, #rightImage{
+    width: 20rem;
+}
+
+
+/*Footer*/
+
+footer {
+    margin: 100px 50px 0px 50px;
+}
+
+footer #div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+
+#div1Span h4 {
+    color: var(--font-color1);
+    font-family: var(--font-family1);
+    font-size: 1.5em;
+    font-weight: 400;
+}#indent {
+    color: var(--redHeart-color);
+}
+
+#div1Span {
+    margin-top: 15px;
+}
+
+#div1Nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 40rem; */
+    gap: 50px;
+    margin: 30px 0px 30px 0px;
+}
+
+#div1Nav a {
+    text-decoration: none;
+    font-family: var(--font-family2);
+    font-weight: 500;
+    font-size: 1em;
+    color: var(--font-color1);
+    padding-bottom: 0.2rem;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s ease;
+}
+
+#div1Nav a:hover {
+    border-color: var(--redHeart-color);
+}
+
+
+footer #div2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#div2 p {
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+#highlight {
+    color: var(--redHeart-color);
+}
+
+
+#div2 #socialHandles {
+    position: absolute;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 15rem; */
+    gap: 50px;
+    
+
+}#socialHandles a {
+    font-size: 1em;
+    color: var(--icons-color);
+}
+
+
+
+
+
+
+/*RESPONSIVNESS*/
+/*RESPONSIVENESS*/
+
+@media (max-width: 1441px) {
+    body {
+        max-width: 100%;
+    }
+
+
+    #bottomScreenShots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }   
+
+    /*Try delicious recipe section*/
+    #upperTexts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 250px;
+    }
+
+    #foodsRecipe {
+        display: grid;
+        grid-template-columns: repeat(4, 2fr);
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #deliciousnessToYourInbox {
+        max-width: 100%;
+    }
+}
+
+
+
+
+/*Small laptop*/
+
+@media (max-width: 1025px) {
+    body {
+        max-width: 100%;
+    }
+
+    header {
+        max-width: 100%;
+    }
+
+    header #pageLinks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }   
+
+    header #socialHandles {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    /*Hero Section*/
+    #mainHero {
+        max-width: 100%;
+        height: 50vh;
+    }
+
+    #father h3 {
+        font-size: 3em;
+    }
+
+    #father #fatherP {
+        font-size: 0.8em;
+    }
+
+    #father #section2 {
+        display: flex;
+        align-items: center;
+        gap: 80px;
+        margin-left: 10px;
+        /* font-size: 0.75em; */
+    }
+
+    #father #section2 #section2Span {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+        width: 11rem;
+        /* border: 1px solid; */
+    }
+
+    #father #section2 #viewRecipe {
+        width: 8rem;
+        padding: 13px;
+    }
+
+    /*Hero image section*/
+    #mainHero #mother {
+        width: 50%;
+    }
+
+    #image2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    /*Category section*/
+    #category #div-2 {
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        justify-content: space-between;
+        /* align-items: center; */
+        gap: 120px;
+    }
+
+    #category #div-2 img {
+        width: 14rem;
+    }
+
+    /*Simple and tasty recipe section*/
+    #foodCards {
+        display: grid;
+        grid-template-columns: repeat(2, 4fr);
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        gap: 150px;
+
+    }
+
+    /*Everyone can be a chef section*/
+    #everyoneCanBeAChef {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+    #everyoneCanBeAChef #textSide {
+        width: 50%;
+        /* border: 1px solid; */
+    }
+
+    #everyoneCanBeAChef #textSide h4 {
+        font-size: 1.7em;
+    }
+
+    #everyoneCanBeAChef #textSide P {
+        font-size: 0.8em;
+    }
+
+    #everyoneCanBeAChef #imageside img {
+        width: 35rem;
+    }
+
+    /*@foodieland on Instagram section*/
+    #bottomScreenShots {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        justify-content: center;
+        align-items: center;
+        gap: 250px;
+        width: 80%;
+    }
+
+    .igPosts {
+        margin-bottom: -150px;
+    }
+
+    #foodielandOnIG #button {
+        margin-top: 250px;
+    }
+
+    /*Try this delicious recipe section*/
+    #tryDeliciousRecipe {
+        width: 90%;
+    }
+
+    #upperTexts {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        width: 100%;
+
+    }
+
+    #upperTexts h4 {
+        font-size: 1.5em;
+    }
+
+    #upperTexts P {
+        font-size: 0.9em;
+    }
+
+    #foodsRecipe {
+        display: grid;
+        grid-template-columns: repeat(2, 4fr);
+        justify-content: center;
+        align-items: center;
+        gap: 150px;
+    }
+
+    .foodsRecipeCards {
+        margin-bottom: -100px;
+    }
+
+    /*Deliciousness to your inbox section*/
+    #deliciousnessToYourInbox {
+        margin-top: 200px;
+        /* width: 100%; */
+    }
+
+    #lowerInputAndImages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #rightImage, #leftImage {
+        width: 12rem;
+    }
+
+    /*Footer*/
+    #div1Nav, #div2 #socialHandles {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+}
+
+
+/*Tablet*/
+
+@media (max-width: 769px) {
+    body {
+        max-width: 100%;
+    }
+
+    /*header*/
+    header {
+        max-width: 100%;
+        font-size: 0.8em;
+    }
+
+    header #pageLinks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    header #socialHandles {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    /*Hero Section*/
+    #mainHero {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        max-width: 100%;
+        height: 50vh;
+    }
+
+    #father #hotRecipe {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+        padding: 7px;
+        width: 8rem;
+        border-radius: 30px;
+        font-size: 0.8em;
+
+    }
+
+    #father h3 {
+        font-size: 2em;
+    }
+
+    #father #fatherP {
+        text-align: center;
+        font-size: 0.8em;
+        word-wrap: break-word;
+    }
+
+    #father #section2 {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #image1 {
+        width: 8rem;
+    }
+
+    #image2 {
+        width: 100%;
+    }
+
+    /*Category section*/
+    #category #div-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 3fr);
+        justify-content: center;
+        align-items: center;
+        gap: 190px;        
+
+    }
+
+    #category #div-2 img {
+        width: 15rem;
+        margin-bottom: -150px;
+    }
+
+    
+    /*Simple and tasty recipe section*/
+    #simpleTastyRecipe {
+        margin-top: 300px;
+        max-width: 100%;
+    }
+
+    #foodCards {
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        gap: 180px;
+        
+    }
+
+    .foods {
+        width: 15rem;
+        height: 20rem;
+    }
+
+    #adImage {
+        width: 15rem;
+        height: 20rem;
+    }
+
+
+    /*Everyone can be a chef section*/
+    #everyoneCanBeAChef {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+    }
+
+    #everyoneCanBeAChef #textSide h4 {
+        text-align: center;
+        /* word-break: break-all;
+        word-wrap: break-word; */
+    }
+
+    #everyoneCanBeAChef #textSide P {
+        text-align: center;
+    }
+
+    #everyoneCanBeAChef #textSide button {
+        width: 8rem;
+        padding: 13px;
+    }
+
+
+    /*@foodieland on Instaram scetion*/
+    #foodielandOnIG {
+        max-width: 100%;
+    }
+
+    #upperSide {
+        margin: 50px;
+    }
+    
+    #upperSide h4 {
+        font-size: 2em;
+    }
+
+    #upperSide P {
+        font-size: 0.9em;
+        
+    }
+
+    #bottomScreenShots {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+
+
+    }
+
+    .igPosts {
+        width: 15rem;
+        margin-bottom: -50px;
+    }
+
+    #foodielandOnIG #button {
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+
+
+    /*Try this delicious recipe section*/
+
+    #upperTexts h4 {
+        text-align: center;
+        
+    }
+
+    #upperTexts P {
+        text-align: center;
+    }
+
+    #foodsRecipe {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foodsRecipeCards {
+        width: 17rem;
+    }
+
+
+    /*Deliciousness to your inbox section*/
+    #deliciousnessToYourInbox {
+        max-width: 100%;
+        border-radius: 30px;
+    }
+
+    #deliciousnessToYourInbox #upperWriteup  {
+        font-size: 0.8em;
+    }
+
+    #lowerInputAndImages {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 65px;
+
+    }
+
+    #lowerInputAndImages #inputDiv {
+        width: 18rem;
+        padding: 5px;
+    }
+
+    #email {
+        padding: 5px;
+    }
+
+    #emailButton {
+        width: 8rem;
+        padding: 5px;
+    }
+
+    #leftImage, #rightImage {
+        width: 7rem;
+    }
+
+
+    /*FOOTER*/
+    footer #div1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.8em;
+    }
+
+    #div1Nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+
+
+/*MOBILES*/
+@media (max-width: 426px) {
+    header {
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    header #nameTitle {
+        margin: 15px 0;
+    }
+
+    header #pageLinks {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+    }
+
+    header #socialHandles {
+        margin: 15px 0;
+        gap: 25px;
+    }
+
+
+    /*HERO*/
+    #mainHero {
+        flex-direction: column;
+        height: auto;
+        margin: 15px;
+        padding: 20px;
+    }
+
+    #mainHero #father {
+        width: 100%;
+        margin: 0;
+    }
+
+    #father h3 {
+        font-size: 2em;
+    }
+
+    #father #section2 {
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 0;
+    }
+
+    #mainHero #mother {
+        width: 100%;
+    }
+
+    #image1 {
+        display: none;
+    }
+
+    #image2 {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    /*Category section*/
+
+    #category {
+        margin: 40px 15px 0 15px;
+    }
+
+    #category #div-1 {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    #category #div-2 {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #category #div-2 img {
+        width: 10rem;
+        margin-bottom: 30px;
+    }
+
+
+    /*Simple tasty recipe*/
+    #simpleTastyRecipe {
+        margin: 80px 15px 30px 15px;
+    }
+
+    #foodCards {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .foods {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+    #adImage {
+        width: 100%;
+        display: none;
+
+    }
+
+
+    /*Everyone can be a chef section*/
+    #everyoneCanBeAChef {
+        flex-direction: column;
+        gap: 30px;
+        margin: 80px 15px 0 15px;
+        text-align: center;
+    }
+
+    #everyoneCanBeAChef #imageSide {
+        width: 100%;
+    }
+
+    #everyoneCanBeAChef #textSide h4 {
+        font-size: 2em;
+    }
+
+    #everyoneCanBeAChef #textSide button {
+        margin-top: 30px;
+    }
+
+
+    /*foodieland on IG section*/
+
+    #foodielandOnIG {
+        margin-top: 60px;
+        padding: 40px 15px;
+    }
+
+    #upperSide h4 {
+        font-size: 1.8em;
+    }
+
+    #bottomScreenShots {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .igPosts {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    /*Try delicious recipe section*/
+    #tryDeliciousRecipe {
+        margin: 60px 15px 0 15px;
+    }
+
+    #upperTexts {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    #upperTexts h4 {
+        font-size: 2em;
+    }
+
+    #foodsRecipe {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .foodsRecipeCards {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+
+    /*Deliciousness to your inbox section*/
+
+    #deliciousnessToYourInbox {
+        margin: 60px 15px 0 15px;
+        padding-top: 40px;
+        border-radius: 30px;
+    }
+
+    #deliciousnessToYourInbox #upperWriteup h4 {
+        font-size: 2em;
+    }
+
+    #lowerInputAndImages {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 40px;
+    }
+
+    #leftImage, #rightImage {
+        display: none;
+        width: 80%;
+    }
+
+    #lowerInputAndImages #inputDiv {
+        max-width: 100%;
+    }
+
+
+
+    /*FOOTER*/
+
+    footer {
+        margin: 60px 15px 0 15px;
+    }
+
+    footer #div1 {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    #div1Nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #div2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        text-align: center;
+    }
+
+    #div2 #socialHandles {
+        position: static;
+        gap: 25px;
+    }
+}
+
+
+/*Medium Mobile*/
+
+@media (max-width: 376px) {
+    header #pageLinks {
+        gap: 10px;
+        font-size: 0.85em;
+    }
+
+    #father h3 {
+        font-size: 1.8em;
+    }
+
+    #father #section1 span {
+        width: 8rem;
+        font-size: 0.8em;
+        /* border: 1px solid; */
+    }
+
+
+    /*Category section*/
+    #category #div-2 img {
+        width: 8rem;
+    }
+
+    /*Everyone can be a chef section*/
+    #everyoneCanBeAChef #textSide h4 {
+        font-size: 1.8em;
+    }
+
+    #upperSide h4 {
+        font-size: 1.6em;
+    }
+
+    #upperTexts h4 {
+        font-size: 1.8em;
+    }
+
+    /*Deliciousness to your inbox section*/
+
+    #deliciousnessToYourInbox #upperWriteup h4 {
+        font-size: 1.8em;
+    }
+
+    #leftImage, #rightImage {
+        width: 70%;
+    }
+}
+
+
+/*Small Mobile*/
+@media (max-width: 321px) {
+    header #pageLinks {
+        gap: 8px;
+        font-size: 0.8em;
+    }
+
+    #father h3 {
+        font-size: 1.5em;
+    }
+
+    #father #hotRecipe {
+        font-size: 0.85em;
+    }
+
+    #father #section1 {
+        gap: 15px;
+    }
+
+    #father #section1 span {
+        width: 7rem;
+        font-size: 0.7em;
+        /* border: 1px solid; */
+    }
+
+    /*Category section*/
+
+    #category #div-2 img {
+        width: 7rem;
+    }
+
+    /*Everyone can be a chef section*/
+    #everyoneCanBeAChef #textSide h4 {
+        font-size: 1.5em;
+    }
+
+    #upperSide h4 {
+        font-size: 1.4em;
+    }
+
+    #upperTexts h4 {
+        font-size: 1.5em;
+    }
+
+    
+    /*Deliciousness to your inbox section*/
+    #deliciousnessToYourInbox #upperWriteup h4 {
+        font-size: 1.5em;
+    }
+
+    /* #leftImage, #rightImage {
+        width: 60%;
+        display: none;
+        
+    } */
+
+    #lowerInputAndImages #inputDiv {
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 15px;
+        gap: 10px;
+        max-width: 100%;
+    }
+
+    #email {
+        max-width: 100%;
+    }
+
+    #emailButton {
+        width: 100%;
+    }
+
+    /*FOOTER*/
+
+    footer #div1 {
+        gap: 15px;
+    }
+
+    #div1Nav {
+        gap: 10px;
+        font-size: 0.85em;
+    }
+}
